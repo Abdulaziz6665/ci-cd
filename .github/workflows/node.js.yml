@@ -22,5 +22,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm i
-      - run: pm2 stop 2
-      - run: pm2 start 2
+      - run: pm2 stop cicd
+      - run: pm2 start cicd
